@@ -1,0 +1,26 @@
+# WASAC data: shared for academic use only, report aggregated results only.
+# Keep it on your machine and in the team Drive. Never commit it.
+data/wasac/*
+!data/wasac/README.md
+
+# Excel files anywhere (in case someone saves a copy elsewhere)
+*.xlsx
+*.xls
+~$*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# Big generated simulation output (regenerate with the sim scripts)
+data/simulated/*.csv
+data/simulated/*.parquet
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
